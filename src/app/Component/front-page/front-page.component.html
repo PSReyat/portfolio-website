@@ -38,13 +38,13 @@
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <input type = "image" src = "assets/weatherapisearchpage.png" width = "800" height = "500" class = "btnTxt submit" data-toggle = "modal" data-target = "#exampleModal"/>
+            <input type = "image" src = "assets/weatherapisearchpage.png" width = "800" height = "500" class = "btnTxt submit" data-toggle = "modal" data-target = "#weatherapi_modal"/>
           </div>
           <div class="carousel-item">
-            <input type = "image" src = "assets/mediashopitemlistpage.png" width = "800" height = "500" class = "btnTxt submit"/>
+            <input type = "image" src = "assets/mediashopitemlistpage.png" width = "800" height = "500" class = "btnTxt submit" data-toggle = "modal" data-target = "#mediashop_modal"/>
           </div>
           <div class="carousel-item">
-            <input type = "image" src = "assets/laqdp.png" width = "800" height = "200" class = "btnTxt submit"/>
+            <input type = "image" src = "assets/laqdp.png" width = "800" height = "200" class = "btnTxt submit" data-toggle = "modal" data-target = "#laqvs_modal"/>
           </div>
         </div>
 
@@ -57,17 +57,19 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+      <!--Weather API modal window-->
+      <div class="modal fade" id="weatherapi_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <h5 class="modal-title" id="exampleModalLabel">Weather API</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
             </div>
             <div class="modal-body">
-              <video width = "800" height = "500" controls autoplay>
+              <video width = "800" height = "500" controls autoplay loop>
                 <source src = "assets/weatherapivideoshowcase.mp4" type = "video/mp4">
               </video>
             </div>
@@ -78,6 +80,53 @@
           </div>
         </div>
       </div>
+
+      <!--Media Shop modal window-->
+      <div class="modal fade" id="mediashop_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Media Shop</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <video width = "800" height = "500" controls autoplay loop>
+                <source src = "assets/mediashopvideoshowcase.mp4" type = "video/mp4">
+              </video>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Linear and Quadratic Factoriser and Solver modal window-->
+      <div class="modal fade" id="laqvs_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Linear and Quadratic Factoriser and Solver</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <video width = "800" height = "500" controls autoplay loop>
+                <source src = "assets/laqvs.mp4" type = "video/mp4">
+              </video>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </body>
