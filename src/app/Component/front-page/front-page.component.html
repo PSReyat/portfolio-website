@@ -39,13 +39,16 @@
 
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <input type = "image" src = "assets/weatherapisearchpage.png" width = "800" height = "500" class = "btnTxt submit" data-toggle = "modal" data-target = "#weatherapi_modal"/>
+            <input type = "image" src = "assets/weatherapisearchpage.png" width = "800" height = "500" 
+            class = "btnTxt submit" data-toggle = "modal" data-target = "#weatherapi_modal"/>
           </div>
           <div class="carousel-item">
-            <input type = "image" src = "assets/mediashopitemlistpage.png" width = "800" height = "500" class = "btnTxt submit" data-toggle = "modal" data-target = "#mediashop_modal"/>
+            <input type = "image" src = "assets/mediashopitemlistpage.png" width = "800" height = "500" 
+            class = "btnTxt submit" data-toggle = "modal" data-target = "#mediashop_modal"/>
           </div>
           <div class="carousel-item">
-            <input type = "image" src = "assets/laqdp.png" width = "800" height = "200" class = "btnTxt submit" data-toggle = "modal" data-target = "#laqvs_modal"/>
+            <input type = "image" src = "assets/laqdp.png" width = "800" height = "200" 
+            class = "btnTxt submit" data-toggle = "modal" data-target = "#laqes_modal"/>
           </div>
         </div>
 
@@ -63,11 +66,11 @@
       <!--Projects section-->
 
       <!--Weather API modal window-->
-      <div class="modal fade" id="weatherapi_modal" tabindex="-1" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal" id="weatherapi_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Weather API</h5>
+              <h5 class="modal-title" id="weatherapi_title">Weather API</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -76,6 +79,10 @@
               <video width = "700" height = "500" controls autoplay loop>
                 <source src = "assets/weatherapivideoshowcase.mp4" type = "video/mp4">
               </video>
+              <p>
+                API's are multi-varied technologies that allow you to make applications without much effort on your part. I used the Open Weather Map API 
+                from RapidAPI.com and parsed the the information and displayed it.
+              </p>
             </div>
           </div>
         </div>
@@ -83,11 +90,11 @@
       <!--Weather API modal window-->
 
       <!--Media Shop modal window-->
-      <div class="modal fade" id="mediashop_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal" id="mediashop_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Media Shop</h5>
+              <h5 class="modal-title" id="mediashop_title">Media Shop</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -96,6 +103,10 @@
               <video width = "700" height = "500" controls autoplay loop>
                 <source src = "assets/mediashopvideoshowcase.mp4" type = "video/mp4">
               </video>
+              <p>
+                My first large project. I realised most applications in the real world are used with a multitude of different technologies, so with that in mind, I 
+                wanted to try out making an application that utilised Spring Boot, Angular and MySQL in conjunction to achieve a e-commerce website functionality like Amazon.
+              </p>
             </div>
           </div>
         </div>
@@ -103,11 +114,11 @@
       <!--Media Shop modal window-->
 
       <!--Linear and Quadratic Factoriser and Solver modal window-->
-      <div class="modal fade" id="laqvs_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal" id="laqes_modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
         <div class="modal-lg" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Linear and Quadratic Factoriser and Solver</h5>
+              <h5 class="modal-title" id="laqes_title">Linear and Quadratic Factoriser and Solver</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -116,6 +127,10 @@
               <video width = "700" height = "500" controls autoplay loop>
                 <source src = "assets/laqvs.mp4" type = "video/mp4">
               </video>
+              <p>
+                A linear and quadratic equation solver I created. I've worked as a tutor for a long time and I've taught algebra for a while 
+                and I was inspired to create an app to help check their answers.
+              </p>
             </div>
           </div>
         </div>
@@ -124,5 +139,11 @@
 
     </div>
   </div>
+
+  <footer>
+    <p style = "text-align: center;">
+      Created by Parminder Reyat
+    </p>
+  </footer>
 </body>
 </html>
